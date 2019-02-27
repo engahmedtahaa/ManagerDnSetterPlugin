@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+    <task>
+        <name>ManagerDNSettterScheduler</name>
+        <class>com.asset.oim.core.tasks.ManagerDNSettterScheduler</class>
+        <description>set user maanger dn</description>
+        <retry>1</retry>
+    </task>
+</scheduledTasks>
